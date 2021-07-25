@@ -193,8 +193,8 @@ dns_domain: "{{ cluster_name }}"
 
 
 container_manager: containerd
-etcd_deployment_type: host
 kubelet_deployment_type: host
+etcd_deployment_type: host
 
 # Additional container runtimes
 kata_containers_enabled: false
